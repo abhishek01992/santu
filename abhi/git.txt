@@ -1,0 +1,299 @@
+Microsoft Windows [Version 10.0.19045.3930]
+(c) Microsoft Corporation. All rights reserved.
+
+F:\Git>git clone git@github.com:abhishek01992/java.git
+Cloning into 'java'...
+remote: Enumerating objects: 20, done.
+remote: Counting objects: 100% (20/20), done.
+remote: Compressing objects: 100% (12/12), done.
+remote: Total 20 (delta 2), reused 13 (delta 1), pack-reused 0
+Receiving objects: 100% (20/20), done.
+Resolving deltas: 100% (2/2), done.
+
+F:\Git>cd java
+
+F:\Git\java>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        lund.xml
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+F:\Git\java>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   abhi.txt.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        lund.xml
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+F:\Git\java>git add .
+
+F:\Git\java>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   abhi.txt.txt
+        new file:   lund.xml
+
+
+F:\Git\java>git commit -m "new update jjdfjkf fdfkjdfjd fjd fkjf fdfjfkfdjfk jfkjf dkfj"
+[main 2e46e71] new update jjdfjkf fdfkjdfjd fjd fkjf fdfjfkfdjfk jfkjf dkfj
+ 2 files changed, 16 insertions(+)
+ create mode 100644 lund.xml
+
+F:\Git\java>git push
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 484 bytes | 80.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:abhishek01992/java.git
+   d868f20..2e46e71  main -> main
+
+F:\Git\java>
+------------------------------------------------------------------------
+
+Microsoft Windows [Version 10.0.19045.3930]
+(c) Microsoft Corporation. All rights reserved.
+
+F:\Git>git clone git@github.com:abhishek01992/java.git
+Cloning into 'java'...
+remote: Enumerating objects: 20, done.
+remote: Counting objects: 100% (20/20), done.
+remote: Compressing objects: 100% (12/12), done.
+remote: Total 20 (delta 2), reused 13 (delta 1), pack-reused 0
+Receiving objects: 100% (20/20), done.
+Resolving deltas: 100% (2/2), done.
+
+F:\Git>cd java
+
+F:\Git\java>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        lund.xml
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+F:\Git\java>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   abhi.txt.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        lund.xml
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+F:\Git\java>git add .
+
+F:\Git\java>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   abhi.txt.txt
+        new file:   lund.xml
+
+
+F:\Git\java>git commit -m "new update jjdfjkf fdfkjdfjd fjd fkjf fdfjfkfdjfk jfkjf dkfj"
+[main 2e46e71] new update jjdfjkf fdfkjdfjd fjd fkjf fdfjfkfdjfk jfkjf dkfj
+ 2 files changed, 16 insertions(+)
+ create mode 100644 lund.xml
+
+F:\Git\java>git push
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 484 bytes | 80.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:abhishek01992/java.git
+   d868f20..2e46e71  main -> main
+
+F:\Git\java>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   lund.xml
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+F:\Git\java>git add lund.xml
+
+F:\Git\java>git commit -m "new addition"
+[main fbca366] new addition
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+F:\Git\java>git push
+To github.com:abhishek01992/java.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'github.com:abhishek01992/java.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+F:\Git\java>git pull
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 982 bytes | 10.00 KiB/s, done.
+From github.com:abhishek01992/java
+   2e46e71..21c7520  main       -> origin/main
+Auto-merging lund.xml
+CONFLICT (content): Merge conflict in lund.xml
+Automatic merge failed; fix conflicts and then commit the result.
+
+F:\Git\java>git add lund.xml
+
+F:\Git\java>git commit -m "conflict resolved"
+[main 2e479f0] conflict resolved
+
+F:\Git\java>git push
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 592 bytes | 197.00 KiB/s, done.
+Total 6 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), completed with 1 local object.
+To github.com:abhishek01992/java.git
+   21c7520..2e479f0  main -> main
+
+F:\Git\java>git branch -v
+* main 2e479f0 conflict resolved
+
+F:\Git\java>git branch -v
+* main 2e479f0 conflict resolved
+
+F:\Git\java>git fetch
+From github.com:abhishek01992/java
+ * [new branch]      Development -> origin/Development
+
+F:\Git\java>git branch -v
+* main 2e479f0 conflict resolved
+
+F:\Git\java>git checkout Development
+branch 'Development' set up to track 'origin/Development'.
+Switched to a new branch 'Development'
+
+F:\Git\java>git branch -v
+* Development 2e479f0 conflict resolved
+  main        2e479f0 conflict resolved
+
+F:\Git\java>git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+F:\Git\java>git branch -v
+  Development 2e479f0 conflict resolved
+* main        2e479f0 conflict resolved
+
+F:\Git\java>git checkout Development
+Switched to branch 'Development'
+Your branch is up to date with 'origin/Development'.
+
+F:\Git\java>git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+F:\Git\java>git branch -v
+  Development 2e479f0 conflict resolved
+* main        2e479f0 conflict resolved
+
+F:\Git\java>git checkout Development
+Switched to branch 'Development'
+Your branch is up to date with 'origin/Development'.
+
+F:\Git\java>git branch -v
+* Development 2e479f0 conflict resolved
+  main        2e479f0 conflict resolved
+
+F:\Git\java>git status
+On branch Development
+Your branch is up to date with 'origin/Development'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        src/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+F:\Git\java>git add .
+
+F:\Git\java>git commit -m "new dir upload"
+[Development c259963] new dir upload
+ 4 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 src/Pushpanjali Tiwari-1.pdf
+ create mode 100644 src/Pushpanjali Tiwari-3.pdf
+ create mode 100644 src/Pushpanjali Tiwari-4.pdf
+ create mode 100644 src/The Great Indian Novel Summary.docx
+
+F:\Git\java>git push -u origin Develoment
+error: src refspec Develoment does not match any
+error: failed to push some refs to 'github.com:abhishek01992/java.git'
+
+F:\Git\java>git push -u origin Development
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (7/7), 831.04 KiB | 2.66 MiB/s, done.
+Total 7 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To github.com:abhishek01992/java.git
+   2e479f0..c259963  Development -> Development
+branch 'Development' set up to track 'origin/Development'.
+
+F:\Git\java>git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+F:\Git\java>git checkout Development
+Switched to branch 'Development'
+Your branch is up to date with 'origin/Development'.
+
+F:\Git\java>git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+F:\Git\java>git checkout Development
+Switched to branch 'Development'
+Your branch is up to date with 'origin/Development'.
+
+F:\Git\java>git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+F:\Git\java>
+
